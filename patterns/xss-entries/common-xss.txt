@@ -1,5 +1,5 @@
-innerHTML\s*=\s*["'`]\${[^"'`]*}["'`]
-outerHTML\s*=\s*["'`]\${[^"'`]*}["'`]
+innerHTML\s*=\s*["'`]
+outerHTML\s*=\s*["'`]
 document.write(["'`]$
 ng-bind-html=["'`]$
 ng-html=["'`]$
@@ -8,4 +8,4 @@ document.writeln(["'`]$
 element.insertAdjacentHTML
 range.createContextualFragment
 dangerouslySetInnerHTML
-window.location=["'`]${
+window.location=["'`]
