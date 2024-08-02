@@ -1,0 +1,7 @@
+http
+https
+url
+endpoint
+path
+uri
+baseURL

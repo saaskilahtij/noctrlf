@@ -1,0 +1,11 @@
+innerHTML\s*=\s*["'`]\${[^"'`]*}["'`]
+outerHTML\s*=\s*["'`]\${[^"'`]*}["'`]
+document.write(["'`]$
+ng-bind-html=["'`]$
+ng-html=["'`]$
+document.write(["'`]$
+document.writeln(["'`]$
+element.insertAdjacentHTML
+range.createContextualFragment
+dangerouslySetInnerHTML
+window.location=["'`]${
